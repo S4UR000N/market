@@ -1,0 +1,15 @@
+meta {
+  name: Token
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8080/realms/market/protocol/openid-connect/token
+  body: none
+  auth: bearer
+}
+
+headers {
+  content-type: application/x-www-form-urlencoded
+}
